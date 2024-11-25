@@ -10,11 +10,6 @@ object NetworkHelper {
     val BASE_URL = "http://api.weatherapi.com/v1/forecast.json?key=55ae7587d2194b30bf364918242111&q=Kalyan&days=1&aqi=no&alerts=no"
 
     suspend fun fetchData(): String {
-//        return withContext(Dispatchers.IO){
-//            try {
-//
-//            }
-//        }
         var response = ""
 
         val thread = Thread {
