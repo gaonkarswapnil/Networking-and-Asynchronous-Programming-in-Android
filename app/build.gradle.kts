@@ -69,15 +69,22 @@ dependencies {
 
     implementation("com.github.bumptech.glide:glide:4.15.0")
 
+    implementation("com.squareup.retrofit2:adapter-rxjava3:2.9.0")
+
     val lifecycle_version = "2.8.6"
     // ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
 
-
     implementation("io.reactivex.rxjava3:rxkotlin:3.0.0")
 
     implementation("com.squareup.retrofit2:adapter-rxjava3:2.9.0")
+
+    // RxJava for reactive programming
+    implementation("io.reactivex.rxjava3:rxjava:3.1.0")
+
+    // RxAndroid for Android-specific RxJava bindings
+    implementation("io.reactivex.rxjava3:rxandroid:3.0.0")
 
 
 }
